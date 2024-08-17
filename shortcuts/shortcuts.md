@@ -5,6 +5,7 @@ Here contains all my shortcuts for editing code.
 (L) e -> Toggle File Explorer  
 (L) E -> Toggle File Explorer focus  
 (L) q -> Close Tab (Ctrl L q if preview)  
+(L) y -> Copy register 0 to +
 Ctrl Shift L -> Right Tab
 Ctrl Shift H -> Left Tab
 Ctrl ' -> Terminal
