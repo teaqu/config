@@ -1,0 +1,33 @@
+[
+{
+    "key": "ctrl+shift+h",
+    "command": "workbench.action.previousEditor"
+},
+{
+    "key": "ctrl+shift+l",
+    "command": "workbench.action.nextEditor"
+},
+{
+    "key": "space e",
+    "command": "workbench.action.closeSidebar",
+    "when": "sideBarVisible && sideBarFocus"
+},
+{
+    "key": "space shift+e",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "sideBarVisible && sideBarFocus"
+},
+{
+    "key": "space",
+    "command": "-list.toggleExpand",
+    "when": "listFocus && !inputFocus && !treestickyScrollFocused"
+},
+{
+    "key": "ctrl+shift+l",
+    "command": "-continue.focusContinueInputWithoutClear"
+},
+{
+    "key": "ctrl+shift+h",
+    "command": "-workbench.action.replaceInFiles"
+}
+] 
