@@ -5,11 +5,11 @@ vim.keymap.set({ "n", "x" }, "<leader>e", function()
 end, { silent = true })
 
 vim.keymap.set({ "n", "x" }, "<leader>E", function()
-  vim.fn.VSCodeNotify("workbench.action.focusSideBar")
+  vim.fn.VSCodeNotify("workbench.action.closeSidebar")
 end, { silent = true })
 
 vim.keymap.set("n", "<leader>q", function()
   vim.fn.VSCodeNotify("workbench.action.closeActiveEditor")
 end, { silent = true })
 
-vim.api.nvim_set_keymap('n', '<leader>y', [[:let @+=@0<CR>]], { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<leader>y", [[:let @+=@0<CR>]], { noremap = true, silent = true })
